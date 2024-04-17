@@ -12,7 +12,7 @@
     "demo": "npx ts-node --project tsconfig.json src/demo.ts",
     "build": "npx tsc",
     "clean": "rmdir /s /q build",
-    "prepare": "npm run clean && npm run build",
+    "prepare": "npm run build",
     "lint": "npx eslint src"
   },
   "author": "",
